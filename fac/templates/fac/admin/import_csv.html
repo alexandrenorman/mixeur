@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Import de FACP depuis un CSV</title>
+</head>
+<body>
+<h1>Import de Structure/Contact en CSV</h1>
+<h2>Format attendu pour l'import :</h2>
+<pre>
+  Structures :
+    Nom,Référent interne - merci de saisir une adresse email liée à un compte Mixeur existant,Référence interne (optionnel), Type de structure,Adresse,
+    Code postal,Ville,Pays,Courriel (optionnel), Site (optionnel),Téléphone (format 0123456789) (optionnel), Tags (optionnels),Tag obligatoire
+
+  Contacts :
+    Civilité,Prénom,Nom,Courriel,Adresse (optionnel),Code postal (optionnel), Ville (optionnel),Pays (optionnel) ,Téléphone (optionnel), Mobile (optionnel), Tags (optionnel),
+    Structure associée,Titre/fonction dans la structure, Référent interne (optionnel) - merci de saisir une adresse email liée à un compte Mixeur existant
+</pre>
+<hr>
+<form method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  <label for="organizations">Structures à importer (cf format ci-dessus)</label>
+  <br>
+  <input id="organizations" type="file" name="organizations" accept="text/csv" required>
+
+  <br>
+  <br>
+
+  <label for="contacts">Contacts à importer (cf format ci-dessus)</label>
+  <br>
+  <input id="contacts" type="file" name="contacts" accept="text/csv">
+
+  <br>
+  <br>
+  <label for="owning_group">La Structure liée aux objets à importer</label>
+  <br>
+  <select name="owning_group" id="owning_group">
+    {% for owning_group in owning_groups %}
+    <option value="{{ owning_group.pk }}">{{ owning_group.name }}</option>
+    {% endfor %}
+  </select>
+
+  <br>
+  <br>
+  <input type="submit" value="Importer">
+</form>
+</body>
+</html>

@@ -1,0 +1,560 @@
+[
+  {
+    "model": "fac.folder",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T16:07:06.091Z",
+      "updated_at": "2019-12-02T16:07:06.091Z",
+      "description": "Dossier Actimmo",
+      "model": 1,
+      "owning_group": 1,
+      "type_valorization": 1,
+      "content_type": [
+        "fac",
+        "contact"
+      ],
+      "object_id": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.632Z",
+      "updated_at": "2019-12-06T13:13:11.187Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": 1,
+      "done": false,
+      "done_by": [
+        "conseiller@test.org"
+      ],
+      "message": "Prise de contact ok",
+      "folder": 1,
+      "model": 2,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.677Z",
+      "updated_at": "2019-12-06T13:12:43.347Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": 1,
+      "done": false,
+      "done_by": [
+        "conseiller@test.org"
+      ],
+      "message": "rdv s'est tr\u00e8s bien pass\u00e9",
+      "folder": 1,
+      "model": 3,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.681Z",
+      "updated_at": "2019-12-06T13:13:30.414Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": 1,
+      "done": false,
+      "done_by": null,
+      "message": "En cours",
+      "folder": 1,
+      "model": 4,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.685Z",
+      "updated_at": "2019-12-06T13:07:22.686Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": null,
+      "done": false,
+      "done_by": null,
+      "message": "",
+      "folder": 1,
+      "model": 6,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 5,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.689Z",
+      "updated_at": "2019-12-06T13:07:22.690Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": null,
+      "done": false,
+      "done_by": null,
+      "message": "",
+      "folder": 1,
+      "model": 7,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 6,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.693Z",
+      "updated_at": "2019-12-06T13:07:22.694Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": null,
+      "done": false,
+      "done_by": null,
+      "message": "",
+      "folder": 1,
+      "model": 8,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.action",
+    "pk": 7,
+    "fields": {
+      "created_at": "2019-12-06T13:07:22.697Z",
+      "updated_at": "2019-12-06T13:07:22.697Z",
+      "duration": 0,
+      "date": "2019-12-06",
+      "contact": null,
+      "done": false,
+      "done_by": null,
+      "message": "",
+      "folder": 1,
+      "model": 9,
+      "valorization": 1
+    }
+  },
+  {
+    "model": "fac.reminder",
+    "pk": 1,
+    "fields": {
+      "created_at": "2020-01-16T09:32:11.792Z",
+      "updated_at": "2020-01-16T09:32:11.792Z",
+      "owning_group": 1,
+      "creator": null,
+      "content_type_task": 96,
+      "object_id_task": 1,
+      "content_type_contactable": 58,
+      "object_id_contactable": 1,
+      "date": "2020-01-16",
+      "recurrences": "RRULE:FREQ=WEEKLY;UNTIL=20200218T230000Z;BYDAY=MO,TH",
+      "persons": [3]
+    }
+  },
+  {
+    "model": "fac.reminder",
+    "pk": 2,
+    "fields": {
+      "created_at": "2020-01-16T09:32:34.051Z",
+      "updated_at": "2020-01-16T09:32:34.051Z",
+      "owning_group": 1,
+      "creator": null,
+      "content_type_task": 96,
+      "object_id_task": 2,
+      "content_type_contactable": 58,
+      "object_id_contactable": 1,
+      "date": "2020-01-16",
+      "recurrences": null,
+      "persons": [3]
+    }
+  },
+  {
+    "model": "fac.reminder",
+    "pk": 3,
+    "fields": {
+      "created_at": "2020-01-16T09:39:21.194Z",
+      "updated_at": "2020-01-16T09:39:21.194Z",
+      "owning_group": 1,
+      "creator": null,
+      "content_type_task": 96,
+      "object_id_task": 3,
+      "content_type_contactable": 58,
+      "object_id_contactable": 1,
+      "date": "2020-01-16",
+      "recurrences": null,
+      "persons": [3]
+    }
+  },
+    {
+    "model": "fac.period",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T14:13:51.182Z",
+      "updated_at": "2019-12-02T14:13:51.190Z",
+      "name": "2019",
+      "date_start": "2019-01-01",
+      "date_end": "2020-12-31"
+    }
+  },
+  {
+    "model": "fac.typevalorization",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T14:02:49.861Z",
+      "updated_at": "2019-12-02T14:02:49.872Z",
+      "name": "En ville",
+      "groups": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "fac.typevalorization",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-12-02T14:03:04.666Z",
+      "updated_at": "2019-12-02T14:03:04.676Z",
+      "name": "En campagne",
+      "groups": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "fac.typevalorization",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-12-02T14:03:04.666Z",
+      "updated_at": "2019-12-02T14:03:04.676Z",
+      "name": "Mixte",
+      "groups": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "fac.project",
+    "pk": 1,
+    "fields": {
+      "name": "Actimmo",
+      "type_valorizations": [
+        1
+      ],
+      "groups": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "fac.budget",
+    "pk": 1,
+    "fields": {
+      "period": 1,
+      "group": 1,
+      "fixed_part": 1000,
+      "total_envelope": 2000,
+      "project": 1
+    }
+  },
+  {
+    "model": "fac.foldermodel",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T14:05:23.693Z",
+      "updated_at": "2019-12-02T14:36:35.231Z",
+      "name": "Banques",
+      "project": 1,
+      "icon": "euro-sign"
+    }
+  },
+  {
+    "model": "fac.status",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T14:05:23.712Z",
+      "updated_at": "2019-12-02T14:30:56.737Z",
+      "name": "Structure partenaire",
+      "folder_model": 1,
+      "order": 3
+    }
+  },
+  {
+    "model": "fac.status",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-12-02T14:05:23.713Z",
+      "updated_at": "2019-12-02T14:30:56.604Z",
+      "name": "Structure \u00e0 contacter",
+      "folder_model": 1,
+      "order": 0
+    }
+  },
+  {
+    "model": "fac.status",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-12-02T14:05:23.714Z",
+      "updated_at": "2019-12-02T14:30:56.643Z",
+      "name": "Structure contact\u00e9e",
+      "folder_model": 1,
+      "order": 1
+    }
+  },
+  {
+    "model": "fac.status",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.418Z",
+      "updated_at": "2019-12-02T14:30:56.653Z",
+      "name": "Stucture form\u00e9e",
+      "folder_model": 1,
+      "order": 2
+    }
+  },
+  {
+    "model": "fac.categorymodel",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T14:13:57.936Z",
+      "updated_at": "2019-12-02T14:30:56.816Z",
+      "name": "D\u00e9marchage",
+      "folder_model": 1,
+      "order": 0
+    }
+  },
+  {
+    "model": "fac.categorymodel",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.340Z",
+      "updated_at": "2019-12-02T14:30:56.827Z",
+      "name": "Rendez-vous approfondi",
+      "folder_model": 1,
+      "order": 1
+    }
+  },
+  {
+    "model": "fac.categorymodel",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.341Z",
+      "updated_at": "2019-12-02T14:30:56.836Z",
+      "name": "Formation",
+      "folder_model": 1,
+      "order": 2
+    }
+  },
+  {
+    "model": "fac.categorymodel",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.341Z",
+      "updated_at": "2019-12-02T14:30:56.845Z",
+      "name": "Formalisation du partenariat",
+      "folder_model": 1,
+      "order": 3
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 2,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.464Z",
+      "updated_at": "2019-12-02T14:30:56.855Z",
+      "name": "Porte \u00e0 porte",
+      "description": "",
+      "trigger_status": null,
+      "category_model": 1,
+      "default": true,
+      "optional": false,
+      "order": 0,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 3,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.478Z",
+      "updated_at": "2019-12-02T14:30:56.893Z",
+      "name": "Rendez-vous",
+      "description": "",
+      "trigger_status": 3,
+      "category_model": 2,
+      "default": true,
+      "optional": false,
+      "order": 0,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 4,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.513Z",
+      "updated_at": "2019-12-02T14:32:17.333Z",
+      "name": "R\u00e9union d'information",
+      "description": "",
+      "trigger_status": 4,
+      "category_model": 3,
+      "default": true,
+      "optional": false,
+      "order": 0,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 5,
+    "fields": {
+      "created_at": "2019-12-02T14:30:56.530Z",
+      "updated_at": "2019-12-02T14:30:56.972Z",
+      "name": "Rendez-vous",
+      "description": "",
+      "trigger_status": null,
+      "category_model": 2,
+      "default": false,
+      "optional": true,
+      "order": 0,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 6,
+    "fields": {
+      "created_at": "2019-12-02T14:32:16.856Z",
+      "updated_at": "2019-12-02T14:32:17.353Z",
+      "name": "Formation",
+      "description": "",
+      "trigger_status": 4,
+      "category_model": 3,
+      "default": true,
+      "optional": false,
+      "order": 1,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 7,
+    "fields": {
+      "created_at": "2019-12-02T14:32:16.934Z",
+      "updated_at": "2019-12-02T14:32:17.393Z",
+      "name": "Pr\u00e9paration de la charte",
+      "description": "",
+      "trigger_status": null,
+      "category_model": 4,
+      "default": true,
+      "optional": false,
+      "order": 0,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 8,
+    "fields": {
+      "created_at": "2019-12-02T14:34:02.505Z",
+      "updated_at": "2019-12-02T14:34:03.061Z",
+      "name": "Signature d'une charte",
+      "description": "",
+      "trigger_status": 1,
+      "category_model": 4,
+      "default": true,
+      "optional": false,
+      "order": 1,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 9,
+    "fields": {
+      "created_at": "2019-12-02T14:34:02.507Z",
+      "updated_at": "2019-12-02T14:34:03.103Z",
+      "name": "Pr\u00e9co'immo",
+      "description": "",
+      "trigger_status": 1,
+      "category_model": 4,
+      "default": true,
+      "optional": false,
+      "order": 2,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 10,
+    "fields": {
+      "created_at": "2019-12-02T14:34:02.645Z",
+      "updated_at": "2019-12-02T14:34:03.171Z",
+      "name": "Participation \u00e0 un \u00e9v\u00e9nement",
+      "description": "",
+      "trigger_status": null,
+      "category_model": 4,
+      "default": false,
+      "optional": true,
+      "order": 0,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.actionmodel",
+    "pk": 11,
+    "fields": {
+      "created_at": "2019-12-02T14:34:02.647Z",
+      "updated_at": "2019-12-02T14:34:03.210Z",
+      "name": "R\u00e9daction communication article",
+      "description": "",
+      "trigger_status": null,
+      "category_model": 4,
+      "default": false,
+      "optional": true,
+      "order": 1,
+      "valorizations": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "fac.valorization",
+    "pk": 1,
+    "fields": {
+      "created_at": "2019-12-02T14:13:52.573Z",
+      "updated_at": "2019-12-02T14:13:52.634Z",
+      "title": "Formations - en ville",
+      "act": true,
+      "amount": 85,
+      "type_valorization": 1,
+      "period": 1
+    }
+  }
+]

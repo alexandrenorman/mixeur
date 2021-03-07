@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+import serpy
+
+
+class RegionSerializer(serpy.Serializer):
+    pk = serpy.Field()
+    name = serpy.Field()
+    inseecode = serpy.Field()
+
+
+class DepartementSerializer(serpy.Serializer):
+    pk = serpy.Field()
+    name = serpy.Field()
+    inseecode = serpy.Field()
+    # region = RegionSerializer(required=False)
+
+
+class EpciSerializer(serpy.Serializer):
+    pk = serpy.Field()
+    name = serpy.Field()
+    inseecode = serpy.Field()
+
+
+class CommuneSerializer(serpy.Serializer):
+    pk = serpy.Field()
+    name = serpy.Field()
+    postcode = serpy.Field()
+    inseecode = serpy.Field()
+    # departement = DepartementSerializer(required=False)
+
+
+class CommuneForGroupSerializer(serpy.Serializer):
+    pk = serpy.Field()
+    id = serpy.Field()
+    name = serpy.Field()
+    epci = serpy.MethodField()
+
+    def get_epci(self, obj):
+        return obj.epci.pk

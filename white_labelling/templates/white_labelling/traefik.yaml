@@ -1,0 +1,93 @@
+# ! AUTO-GENERATED FILE ! DO NOT EDIT !
+# This file is automatically build after each white-labelling modification
+
+# Traefik dynamic configuration
+
+http:
+  routers:
+
+{% for wl in wl_list %}
+   
+    ### {{wl.domain}} #################################
+
+    # Application - HTTP
+    to-{{wl.domain_as_string}}:
+      rule: "Host(`{{wl.domain}}`)"
+      service: {{nginx_name}}
+      entryPoints:
+        - web
+      {% if traefik_redirect_https %}
+      middlewares:
+        - mixeur-redirect-https
+      {% endif %}
+    # Application - HTTPS
+    to-{{wl.domain_as_string}}-secure:
+      rule: "Host(`{{wl.domain}}`)"
+      service: {{nginx_name}}
+      entryPoints:
+        - web-secure
+      tls: {{traefik_tls_conf|safe}}
+{% if wl.enable_django_admin %}
+    # API - HTTP
+    to-api_{{wl.domain_as_string}}:
+      rule: "Host(`api-{{wl.domain}}`)"
+      service: api_{{nginx_name}}
+      entryPoints:
+          - web
+      {% if traefik_redirect_https %}
+      middlewares:
+        - mixeur-redirect-https
+      {% endif %}
+    # API - HTTPS
+    to-api_{{wl.domain_as_string}}-secure:
+      rule: "Host(`api-{{wl.domain}}`)"
+      service: api_{{nginx_name}}
+      entryPoints:
+        - web-secure
+      tls: {{traefik_tls_conf|safe}}
+{% endif %}
+
+{% if mail_name %}
+    # Mailhog - HTTP
+    to-mail_{{wl.domain_as_string}}:
+      rule: "Host(`mail-{{wl.domain}}`)"
+      service: {{mail_name}}
+      entryPoints:
+          - web
+      {% if use_auth %}
+      middlewares:
+        - mixeur-auth
+      {% endif %}
+      {% if traefik_redirect_https %}
+        - mixeur-redirect-https
+      {% endif %}
+    # Mailhog - HTTPS
+    to-mail_{{wl.domain_as_string}}-secure:
+      rule: "Host(`mail-{{wl.domain}}`)"
+      service: {{mail_name}}
+      entryPoints:
+        - web-secure
+      {% if use_auth %}
+      middlewares:
+        - mixeur-auth
+      {% endif %}
+      tls: {{traefik_tls_conf|safe}}
+{% endif %}
+{% endfor %}
+
+  services:
+    {{nginx_name}}:
+      loadBalancer:
+        servers:
+        - url: http://{{nginx_name}}
+    api_{{nginx_name}}:
+      loadBalancer:
+        servers:
+        - url: http://{{backend}}
+
+{% if mail_name %}
+    {{mail_name}}:
+      loadBalancer:
+        servers:
+        - url: http://{{mail_name}}:8025
+{% endif %}

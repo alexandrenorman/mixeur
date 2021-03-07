@@ -1,0 +1,110 @@
+[
+    {
+        "model": "energies.Energy",
+        "pk": 1,
+        "fields": {
+            "identifier": "oil",
+            "primary_energy_ratio": 1.00,
+            "ghg_ratio": 0.265,
+            "carbon_tax": true,
+            "pci_ratio": null,
+            "density_ratio": null
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 2,
+        "fields": {
+            "identifier": "gaz_b0",
+            "primary_energy_ratio": 1.00,
+            "ghg_ratio": 0.202,
+            "carbon_tax": true,
+            "pci_ratio": null,
+            "density_ratio": null
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 3,
+        "fields": {
+            "identifier": "gaz_b1",
+            "primary_energy_ratio": 1.00,
+            "ghg_ratio": 0.202,
+            "carbon_tax": true,
+            "pci_ratio": null,
+            "density_ratio": null
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 4,
+        "fields": {
+            "identifier": "propane",
+            "primary_energy_ratio": 1.00,
+            "ghg_ratio": 0.28,
+            "carbon_tax": true,
+            "pci_ratio": null,
+            "density_ratio": null
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 5,
+        "fields": {
+            "identifier": "electricity",
+            "primary_energy_ratio": 2.58,
+            "ghg_ratio": 0.18,
+            "carbon_tax": false,
+            "pci_ratio": null,
+            "density_ratio": null
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 6,
+        "fields": {
+            "identifier": "wood",
+            "primary_energy_ratio": 0.60,
+            "ghg_ratio": 0.02,
+            "carbon_tax": false,
+            "pci_ratio": 3000,
+            "density_ratio": 0.27
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 7,
+        "fields": {
+            "identifier": "shredded_wood",
+            "primary_energy_ratio": 0.60,
+            "ghg_ratio": 0.02,
+            "carbon_tax": false,
+            "pci_ratio": 3500,
+            "density_ratio": 0.25
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 8,
+        "fields": {
+            "identifier": "bulk_granules",
+            "primary_energy_ratio": 0.60,
+            "ghg_ratio": 0.04,
+            "carbon_tax": false,
+            "pci_ratio": 4700,
+            "density_ratio": 0.65
+        }
+    },
+    {
+        "model": "energies.Energy",
+        "pk": 9,
+        "fields": {
+            "identifier": "bag_granules",
+            "primary_energy_ratio": 0.60,
+            "ghg_ratio": 0.04,
+            "carbon_tax": false,
+            "pci_ratio": 4700,
+            "density_ratio": 0.65
+        }
+    }
+]

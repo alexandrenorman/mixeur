@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% autoescape off %}
+
+{% load accounts_extra %}
+{% block content %}
+
+{% if form.errors %}
+<p class="error">Le formulaire contient des erreurs, merci de corriger.</p>
+{% endif %}
+<br/>
+<div class="ANstyleS">
+
+  <form method="post" action="">
+    {% csrf_token %}
+    
+    {{ form.non_field_errors }}
+    
+    {% if form.subject.errors %}
+    <ol>
+      {% for error in form.subject.errors %}
+      <li><strong>{{ error|escape }}</strong></li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+    
+    {# Include the hidden fields #}
+    {% for hidden in form.hidden_fields %}
+    {{ hidden }}
+    {% endfor %}
+    {# Include the visible fields #}
+    {% for field in form.visible_fields %}
+    <div>
+      {{ field.errors }}
+      <div class="form-group">
+        <label for="{{field.id_for_label}}" class="control-label  {% if field.field.required %}requiredField{% endif %}">{{ field.label }}</label>
+        <div class="controls "> {{ field }}</div>
+      </div>
+    </div>
+    {% endfor %}
+      
+    <div>
+      <button class="button" type="submit" value="connexion">S'inscrire</button>
+      <input type="hidden" name="next" value="{{ next }}" />
+    </div>
+  </form>
+</div>
+
+{% endblock %}
+{% endautoescape %}

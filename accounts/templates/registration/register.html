@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% autoescape off %}
+
+{% load accounts_extra %}
+{% block content %}
+
+<h2>{% trans "Créez votre compte" %}</h2>
+
+<div class="ANstyleS">
+    {% csrf_token %}
+    {% load crispy_forms_tags %}
+    {% crispy form %}    
+</div>
+
+{% block body_class %}
+{% endblock %}
+
+<pre id="logger">Log:</pre>
+
+
+<script>
+  $("id_category").focus();
+</script>
+
+
+{% endblock %}
+{% endautoescape %}
+
+

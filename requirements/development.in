@@ -1,0 +1,33 @@
+# Local development dependencies go here
+-r base.txt
+
+customizable-django-profiler    
+coverage
+django_coverage_plugin
+Sphinx
+django-extensions
+django-test-plus
+factory_boy==3.0.1
+# forced to 3.0.1 due to a bug in 3.1.0
+# see https://github.com/FactoryBoy/factory_boy/pull/785#issuecomment-703089052
+# when launching `inv test -c energies`
+flake8
+pytest-django
+pytest-sugar
+mock
+django-querycount
+django-silk  # Profiler
+
+# improved REPL
+ipdb
+
+wdb==3.2.5
+gunicorn
+
+pytest-django
+pytest-sugar
+django-querycount
+pip-tools
+
+black
+pre-commit-hooks

@@ -1,0 +1,867 @@
+
+[
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 1,
+    "fields": {
+      "code": 1,
+      "name": "Ain",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 2,
+    "fields": {
+      "code": 2,
+      "name": "Aisne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 3,
+    "fields": {
+      "code": 3,
+      "name": "Allier",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 4,
+    "fields": {
+      "code": 4,
+      "name": "Alpes-de-Haute-Provence",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 5,
+    "fields": {
+      "code": 5,
+      "name": "Hautes-Alpes",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 6,
+    "fields": {
+      "code": 6,
+      "name": "Alpes-Maritimes",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 7,
+    "fields": {
+      "code": 7,
+      "name": "Ardèche",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 8,
+    "fields": {
+      "code": 8,
+      "name": "Ardennes",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 9,
+    "fields": {
+      "code": 9,
+      "name": "Ariège",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 10,
+    "fields": {
+      "code": 10,
+      "name": "Aube",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 11,
+    "fields": {
+      "code": 11,
+      "name": "Aude",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 12,
+    "fields": {
+      "code": 12,
+      "name": "Aveyron",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 13,
+    "fields": {
+      "code": 13,
+      "name": "Bouches-du-Rhône",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 14,
+    "fields": {
+      "code": 14,
+      "name": "Calvados",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 15,
+    "fields": {
+      "code": 15,
+      "name": "Cantal",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 16,
+    "fields": {
+      "code": 16,
+      "name": "Charente",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 17,
+    "fields": {
+      "code": 17,
+      "name": "Charente-Maritime",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 18,
+    "fields": {
+      "code": 18,
+      "name": "Cher",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 19,
+    "fields": {
+      "code": 19,
+      "name": "Corrèze",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 20,
+    "fields": {
+      "code": 20,
+      "name": "Corse-du-Sud",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 20,
+    "fields": {
+      "code": 20,
+      "name": "Haute-Corse",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 21,
+    "fields": {
+      "code": 21,
+      "name": "Côte-d’Or",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 22,
+    "fields": {
+      "code": 22,
+      "name": "Côtes-d’Armor",
+      "value": 1.1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 23,
+    "fields": {
+      "code": 23,
+      "name": "Creuse",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 24,
+    "fields": {
+      "code": 24,
+      "name": "Dordogne",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 25,
+    "fields": {
+      "code": 25,
+      "name": "Doubs",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 26,
+    "fields": {
+      "code": 26,
+      "name": "Drôme",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 27,
+    "fields": {
+      "code": 27,
+      "name": "Eure",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 28,
+    "fields": {
+      "code": 28,
+      "name": "Eure-et-Loir",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 29,
+    "fields": {
+      "code": 29,
+      "name": "Finistère",
+      "value": 1.1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 30,
+    "fields": {
+      "code": 30,
+      "name": "Gard",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 31,
+    "fields": {
+      "code": 31,
+      "name": "Haute-Garonne",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 32,
+    "fields": {
+      "code": 32,
+      "name": "Gers",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 33,
+    "fields": {
+      "code": 33,
+      "name": "Gironde",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 34,
+    "fields": {
+      "code": 34,
+      "name": "Hérault",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 35,
+    "fields": {
+      "code": 35,
+      "name": "Ille-et-Vilaine",
+      "value": 1.1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 36,
+    "fields": {
+      "code": 36,
+      "name": "Indre",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 37,
+    "fields": {
+      "code": 37,
+      "name": "Indre-et-Loire",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 38,
+    "fields": {
+      "code": 38,
+      "name": "Isère",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 39,
+    "fields": {
+      "code": 39,
+      "name": "Jura",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 40,
+    "fields": {
+      "code": 40,
+      "name": "Landes",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 41,
+    "fields": {
+      "code": 41,
+      "name": "Loir-et-Cher",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 42,
+    "fields": {
+      "code": 42,
+      "name": "Loire",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 43,
+    "fields": {
+      "code": 43,
+      "name": "Haute-Loire",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 44,
+    "fields": {
+      "code": 44,
+      "name": "Loire-Atlantique",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 45,
+    "fields": {
+      "code": 45,
+      "name": "Loiret",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 46,
+    "fields": {
+      "code": 46,
+      "name": "Lot",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 47,
+    "fields": {
+      "code": 47,
+      "name": "Lot-et-Garonne",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 48,
+    "fields": {
+      "code": 48,
+      "name": "Lozère",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 49,
+    "fields": {
+      "code": 49,
+      "name": "Maine-et-Loire",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 50,
+    "fields": {
+      "code": 50,
+      "name": "Manche",
+      "value": 1.1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 51,
+    "fields": {
+      "code": 51,
+      "name": "Marne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 52,
+    "fields": {
+      "code": 52,
+      "name": "Haute-Marne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 53,
+    "fields": {
+      "code": 53,
+      "name": "Mayenne",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 54,
+    "fields": {
+      "code": 54,
+      "name": "Meurthe-et-Moselle",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 55,
+    "fields": {
+      "code": 55,
+      "name": "Meuse",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 56,
+    "fields": {
+      "code": 56,
+      "name": "Morbihan",
+      "value": 1.1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 57,
+    "fields": {
+      "code": 57,
+      "name": "Moselle",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 58,
+    "fields": {
+      "code": 58,
+      "name": "Nièvre",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 59,
+    "fields": {
+      "code": 59,
+      "name": "Nord",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 60,
+    "fields": {
+      "code": 60,
+      "name": "Oise",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 61,
+    "fields": {
+      "code": 61,
+      "name": "Orne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 62,
+    "fields": {
+      "code": 62,
+      "name": "Pas-de-Calais",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 63,
+    "fields": {
+      "code": 63,
+      "name": "Puy-de-Dôme",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 64,
+    "fields": {
+      "code": 64,
+      "name": "Pyrénées-Atlantiques",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 65,
+    "fields": {
+      "code": 65,
+      "name": "Hautes-Pyrénées",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 66,
+    "fields": {
+      "code": 66,
+      "name": "Pyrénées-Orientales",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 67,
+    "fields": {
+      "code": 67,
+      "name": "Bas-Rhin",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 68,
+    "fields": {
+      "code": 68,
+      "name": "Haut-Rhin",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 69,
+    "fields": {
+      "code": 69,
+      "name": "Rhône",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 70,
+    "fields": {
+      "code": 70,
+      "name": "Haute-Saône",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 71,
+    "fields": {
+      "code": 71,
+      "name": "Saône-et-Loire",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 72,
+    "fields": {
+      "code": 72,
+      "name": "Sarthe",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 73,
+    "fields": {
+      "code": 73,
+      "name": "Savoie",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 74,
+    "fields": {
+      "code": 74,
+      "name": "Haute-Savoie",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 75,
+    "fields": {
+      "code": 75,
+      "name": "Paris",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 76,
+    "fields": {
+      "code": 76,
+      "name": "Seine-Maritime",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 77,
+    "fields": {
+      "code": 77,
+      "name": "Seine-et-Marne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 78,
+    "fields": {
+      "code": 78,
+      "name": "Yvelines",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 79,
+    "fields": {
+      "code": 79,
+      "name": "Deux-Sèvres",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 80,
+    "fields": {
+      "code": 80,
+      "name": "Somme",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 81,
+    "fields": {
+      "code": 81,
+      "name": "Tarn",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 82,
+    "fields": {
+      "code": 82,
+      "name": "Tarn-et-Garonne",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 83,
+    "fields": {
+      "code": 83,
+      "name": "Var",
+      "value": 0.8
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 84,
+    "fields": {
+      "code": 84,
+      "name": "Vaucluse",
+      "value": 0.9
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 85,
+    "fields": {
+      "code": 85,
+      "name": "Vendée",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 86,
+    "fields": {
+      "code": 86,
+      "name": "Vienne",
+      "value": 1
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 87,
+    "fields": {
+      "code": 87,
+      "name": "Haute-Vienne",
+      "value": 1.2
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 88,
+    "fields": {
+      "code": 88,
+      "name": "Vosges",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 89,
+    "fields": {
+      "code": 89,
+      "name": "Yonne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 90,
+    "fields": {
+      "code": 90,
+      "name": "Territoire de Belfort",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 91,
+    "fields": {
+      "code": 91,
+      "name": "Essonne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 92,
+    "fields": {
+      "code": 92,
+      "name": "Hauts-de-Seine",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 93,
+    "fields": {
+      "code": 93,
+      "name": "Seine-Saint-Denis",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 94,
+    "fields": {
+      "code": 94,
+      "name": "Val-de-Marne",
+      "value": 1.3
+    }
+  },
+  {
+    "model": "autodiag_copro.ClimaticZoneRatio",
+    "pk": 95,
+    "fields": {
+      "code": 95,
+      "name": "Val-d’Oise",
+      "value": 1.3
+    }
+  }
+]

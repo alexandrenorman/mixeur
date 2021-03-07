@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Import de FACP depuis un CSV</title>
+</head>
+<body>
+<h1>Import réalisé avec succès</h1>
+<div>
+  <b>{{ added_organizations|length }}</b> structures ajoutées
+  <br>
+  <b>{{ added_contacts|length }}</b> contacts ajoutés
+  <br>
+  <b>{{ added_tags|length }}</b> tags ajoutés
+  <br>
+  <b>{{ added_member_of_organizations|length }}</b> membre de structure ajoutés
+  <br>
+  <br>
+
+  {% if duplicate_organizations %}
+    <b>Attention ! Des structures étaient dupliquées dans le fichier d'entrée</b>
+    <br>
+    <br>
+    <ul>
+      {% for organization, reference_organization in duplicate_organizations %}
+        <li><b>{{ organization.name }}</b> a été ajoutée ligne {{ reference_organization.line_nb }} mais était également présente à la ligne {{ organization.line_nb }} (et a donc été ignorée)</li>
+      {% endfor %}
+    </ul>
+    <br>
+    <br>
+  {% endif %}
+  {% if duplicate_contacts %}
+    <b>Attention ! Des contacts étaient dupliqués dans le fichier d'entrée</b>
+    <br>
+    <br>
+    <ul>
+      {% for contact, reference_contact in duplicate_contacts %}
+        <li><b>{{ contact.first_name }} {{ contact.last_name }} ({{ contact.email }})</b> a été ajouté ligne {{ reference_contact.line_nb }} mais était également présent à la ligne {{ contact.line_nb }} (et a donc été ignoré)</li>
+      {% endfor %}
+    </ul>
+    <br>
+    <br>
+  {% endif %}
+
+  {% if already_existing_organizations %}
+    <b>Attention ! Des structures étaient déjà présentes dans la BDD</b>
+    <br>
+    <br>
+    <ul>
+      {% for organization in already_existing_organizations %}
+        <li><b>{{ organization.name }}</b> (ligne {{ organization.line_nb }}) a été ignorée car déjà présente dans la BDD</li>
+      {% endfor %}
+    </ul>
+    <br>
+    <br>
+  {% endif %}
+  {% if already_existing_contacts %}
+    <b>Attention ! Des contacts étaient déjà présents dans la BDD</b>
+    <br>
+    <br>
+    <ul>
+      {% for contact in already_existing_contacts %}
+        <li><b>{{ contact.first_name }} {{ contact.last_name }} ({{ contact.email }})</b> (ligne {{ contact.line_nb }}) a été ignoré car déjà présent dans la BDD</li>
+      {% endfor %}
+    </ul>
+    <br>
+    <br>
+  {% endif %}
+  {% if already_existing_tags %}
+    <b>Attention ! Des tags étaient déjà présents dans la BDD</b>
+    <br>
+    <br>
+    <ul>
+      {% for tag in already_existing_tags %}
+        <li><b>{{ tag }}</b> a été ignoré car déjà présent dans la BDD</li>
+      {% endfor %}
+    </ul>
+    <br>
+    <br>
+  {% endif %}
+</div>
+</body>
+</html>

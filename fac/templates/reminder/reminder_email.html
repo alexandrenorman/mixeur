@@ -1,0 +1,58 @@
+{% load i18n staticfiles %}
+{% load i18n %}
+
+
+{% block html_content %}
+
+<p>Bonjour {{user.first_name}},</p>
+
+{% for reminder in contact_reminders %}
+  {% if forloop.first %}  
+
+  <p>Ceci est un mail automatique généré par FAC pour vous indiquer que vous avez <b>{{ count }} rappel{{ count|pluralize }} en attente</b>.</p>
+
+  <h2>{% trans 'Concernant des contacts' %} :</h2>
+  {% endif %}
+
+  {% include "reminder/reminder_item.html" %}
+  <br>
+  
+  {% if forloop.last %}
+  <br>
+  <br>    
+  {% endif %}
+  
+{% endfor %}
+
+
+{% for reminder in organization_reminders %}
+
+  {% if forloop.first %}
+    <br>  
+    <h2>Concernant des structures :</h2>
+  {% endif %}
+
+  {% include "reminder/reminder_item.html" %}
+  <br>
+    
+{% endfor %}
+
+
+{# {% autoescape off %}{{ message_html }}{% endautoescape %} #}
+
+<br>
+<br>
+<hr />
+
+<p>
+  <a href="{{ protocol }}://{{ domain }}/#/fac/reminders">Rendez-vous ici</a> pour traiter l'ensemble de vos rappels.
+</p>
+
+
+<p>
+  A très bientôt dans votre espace,<br>
+  L'équipe {{site_name}}
+</p>
+
+
+{% endblock %}

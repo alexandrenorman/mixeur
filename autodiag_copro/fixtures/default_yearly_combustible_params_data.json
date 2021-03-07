@@ -1,0 +1,326 @@
+[
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 1,
+      "years": "2018-2019",
+      "avg_energy_cost_ratio": 9.0,
+      "eff_energy_cost_ratio": 8.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 1,
+      "years": "2017-2018",
+      "avg_energy_cost_ratio": 9.0,
+      "eff_energy_cost_ratio": 8.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 1,
+      "years": "2016-2017",
+      "avg_energy_cost_ratio": 9.0,
+      "eff_energy_cost_ratio": 8.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 1,
+      "years": "2015-2016",
+      "avg_energy_cost_ratio": 9.0,
+      "eff_energy_cost_ratio": 8.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 1,
+      "years": "2014-2015",
+      "avg_energy_cost_ratio": 9.0,
+      "eff_energy_cost_ratio": 8.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 1,
+      "years": "2013-2014",
+      "avg_energy_cost_ratio": 9.0,
+      "eff_energy_cost_ratio": 8.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 2,
+      "years": "2018-2019",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 5.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 2,
+      "years": "2017-2018",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 5.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 2,
+      "years": "2016-2017",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 5.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 2,
+      "years": "2015-2016",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 5.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 2,
+      "years": "2014-2015",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 5.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 2,
+      "years": "2013-2014",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 5.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 3,
+      "years": "2018-2019",
+      "avg_energy_cost_ratio": 16.0,
+      "eff_energy_cost_ratio": 15.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 3,
+      "years": "2017-2018",
+      "avg_energy_cost_ratio": 16.0,
+      "eff_energy_cost_ratio": 15.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 3,
+      "years": "2016-2017",
+      "avg_energy_cost_ratio": 16.0,
+      "eff_energy_cost_ratio": 15.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 3,
+      "years": "2015-2016",
+      "avg_energy_cost_ratio": 16.0,
+      "eff_energy_cost_ratio": 15.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 3,
+      "years": "2014-2015",
+      "avg_energy_cost_ratio": 16.0,
+      "eff_energy_cost_ratio": 15.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 3,
+      "years": "2013-2014",
+      "avg_energy_cost_ratio": 16.0,
+      "eff_energy_cost_ratio": 15.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 4,
+      "years": "2018-2019",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 8.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 4,
+      "years": "2017-2018",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 8.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 4,
+      "years": "2016-2017",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 8.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 4,
+      "years": "2015-2016",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 8.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 4,
+      "years": "2014-2015",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 8.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 4,
+      "years": "2013-2014",
+      "avg_energy_cost_ratio": 6.0,
+      "eff_energy_cost_ratio": 8.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 5,
+      "years": "2018-2019",
+      "avg_energy_cost_ratio": 15.0,
+      "eff_energy_cost_ratio": 14.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 5,
+      "years": "2017-2018",
+      "avg_energy_cost_ratio": 15.0,
+      "eff_energy_cost_ratio": 14.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 5,
+      "years": "2016-2017",
+      "avg_energy_cost_ratio": 15.0,
+      "eff_energy_cost_ratio": 14.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 5,
+      "years": "2015-2016",
+      "avg_energy_cost_ratio": 15.0,
+      "eff_energy_cost_ratio": 14.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 5,
+      "years": "2014-2015",
+      "avg_energy_cost_ratio": 15.0,
+      "eff_energy_cost_ratio": 14.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 5,
+      "years": "2013-2014",
+      "avg_energy_cost_ratio": 15.0,
+      "eff_energy_cost_ratio": 14.0
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 6,
+      "years": "2018-2019",
+      "avg_energy_cost_ratio": 6.5,
+      "eff_energy_cost_ratio": 6.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 6,
+      "years": "2017-2018",
+      "avg_energy_cost_ratio": 6.5,
+      "eff_energy_cost_ratio": 6.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 6,
+      "years": "2016-2017",
+      "avg_energy_cost_ratio": 6.5,
+      "eff_energy_cost_ratio": 6.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 6,
+      "years": "2015-2016",
+      "avg_energy_cost_ratio": 6.5,
+      "eff_energy_cost_ratio": 6.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 6,
+      "years": "2014-2015",
+      "avg_energy_cost_ratio": 6.5,
+      "eff_energy_cost_ratio": 6.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyCombustibleParams",
+    "fields": {
+      "combustible_params": 6,
+      "years": "2013-2014",
+      "avg_energy_cost_ratio": 6.5,
+      "eff_energy_cost_ratio": 6.5
+    }
+  }
+]

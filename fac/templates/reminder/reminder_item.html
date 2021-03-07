@@ -1,0 +1,55 @@
+<div style="margin-left: 2rem;width: 80%;">
+<h3 style="border-bottom: 1px solid #888;">{{ reminder.linked_object_name }}</h3>
+
+<table>
+  <tr>
+    <td style="color: #aaa;">Personne{{ reminder.persons.all.count|pluralize }} concernée{{ reminder.persons.all.count|pluralize }} :</td>
+    <td>
+      {% for person in reminder.persons.all %}
+     {{ person.full_name }}<br>
+      {% endfor %}
+    </td>
+  </tr>
+  <tr>
+    <td style="color: #aaa;">Date de rappel :</td>
+    <td>{{reminder.date|date:"d.m.Y"}}</td>
+  </tr>
+  <tr>
+    <td style="color: #aaa;">Lien :</td>
+    <td>
+      {% if reminder.contactable_type == "Contact" %}
+      <a href="{{ protocol }}://{{ domain }}/#/fac/contacts/{{ reminder.linked_object_contactable.pk }}">Fiche contact {{ reminder.linked_object_name }}</a>
+      {% endif %}
+      {% if reminder.contactable_type == "Organization" %}
+      <a href="{{ protocol }}://{{ domain }}/#/fac/organizations/{{ reminder.linked_object_contactable.pk }}">Fiche structure {{ reminder.linked_object_name }}</a>
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td style="color: #aaa;">Type :</td>
+    <td>
+      {% if reminder.object_type == "Note" %}
+      Note sur la fiche.
+      {% endif %}
+      {% if reminder.object_type == "Action" %}
+      Action sur le dossier « {{ reminder.linked_object_task.folder.model.name }} / {{ reminder.linked_object_task.model.category_model.name }} / {{ reminder.linked_object_task.model.name }} »
+      {% endif %}
+    </td>
+  </tr>
+</table>
+
+<br>
+
+{% if reminder.object_type == "Note" %}
+<div style="margin-left: 3rem;border-left: 4px solid #888; padding-left: 16px;">
+  {{ reminder.note.first.note|safe }}
+</div>
+{% endif %}
+    
+{% if reminder.object_type == "Action" %}
+<div style="margin-left: 3rem;border-left: 4px solid #888; padding-left: 16px;">
+  {{ reminder.action.first.message|safe }}
+</div>
+{% endif %}
+
+</div>

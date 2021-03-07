@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% autoescape off %}
+
+{% load accounts_extra %}
+{% block content %}
+
+<h2>{% trans "Mettez à jour votre compte" %}</h2>
+
+<div class="ANstyleS">
+    {% csrf_token %}
+    {% load crispy_forms_tags %}
+    {% crispy form %}    
+</div>
+
+
+<h2>{% trans "Modifiez votre mot de passe" %}</h2>
+
+<div>
+  <p>
+    <a href="{% url 'accounts:password_change' %}" class="button warning" role="button">{% trans "Change my password" %}</a>
+  </p>
+</div>
+
+
+{% endblock %}
+{% endautoescape %}

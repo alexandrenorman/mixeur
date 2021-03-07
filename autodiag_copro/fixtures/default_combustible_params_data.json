@@ -1,0 +1,62 @@
+[
+  {
+    "model": "autodiag_copro.DefaultCombustibleParams",
+    "pk": 1,
+    "fields": {
+      "params": 1,
+      "combustible": 1,
+      "avg_hot_water_energy_ratio": 110,
+      "eff_hot_water_energy_ratio": 95
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultCombustibleParams",
+    "pk": 2,
+    "fields": {
+      "params": 1,
+      "combustible": 2,
+      "avg_hot_water_energy_ratio": 110,
+      "eff_hot_water_energy_ratio": 95
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultCombustibleParams",
+    "pk": 3,
+    "fields": {
+      "params": 1,
+      "combustible": 3,
+      "avg_hot_water_energy_ratio": 110,
+      "eff_hot_water_energy_ratio": 95
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultCombustibleParams",
+    "pk": 4,
+    "fields": {
+      "params": 1,
+      "combustible": 4,
+      "avg_hot_water_energy_ratio": 90,
+      "eff_hot_water_energy_ratio": 80
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultCombustibleParams",
+    "pk": 5,
+    "fields": {
+      "params": 1,
+      "combustible": 5,
+      "avg_hot_water_energy_ratio": 100,
+      "eff_hot_water_energy_ratio": 90
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultCombustibleParams",
+    "pk": 6,
+    "fields": {
+      "params": 1,
+      "combustible": 6,
+      "avg_hot_water_energy_ratio": 110,
+      "eff_hot_water_energy_ratio": 95
+    }
+  }
+]

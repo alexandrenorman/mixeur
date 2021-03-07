@@ -1,0 +1,50 @@
+[
+  {
+    "model": "autodiag_copro.DefaultYearlyParams",
+    "fields": {
+      "params": 1,
+      "years": "2018-2019",
+      "water_cost": 3.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyParams",
+    "fields": {
+      "params": 1,
+      "years": "2017-2018",
+      "water_cost": 3.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyParams",
+    "fields": {
+      "params": 1,
+      "years": "2016-2017",
+      "water_cost": 3.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyParams",
+    "fields": {
+      "params": 1,
+      "years": "2015-2016",
+      "water_cost": 3.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyParams",
+    "fields": {
+      "params": 1,
+      "years": "2014-2015",
+      "water_cost": 3.5
+    }
+  },
+  {
+    "model": "autodiag_copro.DefaultYearlyParams",
+    "fields": {
+      "params": 1,
+      "years": "2013-2014",
+      "water_cost": 3.5
+    }
+  }
+]

@@ -1,0 +1,1730 @@
+[
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 1,
+            "price": 3.35
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 2,
+            "price": 5.75
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 3,
+            "price": 3.61
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 4,
+            "price": 5.99
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 5,
+            "price": 11.91
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 6,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 7,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 8,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1996,
+            "energy": 9,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 1,
+            "price": 3.52
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 2,
+            "price": 5.98
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 3,
+            "price": 3.76
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 4,
+            "price": 6.81
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 5,
+            "price": 11.68
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 6,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 7,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 8,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1997,
+            "energy": 9,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 1,
+            "price": 3.02
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 2,
+            "price": 5.17
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 3,
+            "price": 3.8
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 4,
+            "price": 6.8
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 5,
+            "price": 11.42
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 6,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 7,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 8,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1998,
+            "energy": 9,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 1,
+            "price": 3.29
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 2,
+            "price": 4.84
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 3,
+            "price": 3.51
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 4,
+            "price": 6.44
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 5,
+            "price": 10.87
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 6,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 7,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 8,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 1999,
+            "energy": 9,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 1,
+            "price": 4.64
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 2,
+            "price": 5.03
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 3,
+            "price": 3.66
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 4,
+            "price": 7.33
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 5,
+            "price": 10.63
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 6,
+            "price": null
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 7,
+            "price": 2.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 8,
+            "price": 3.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2000,
+            "energy": 9,
+            "price": 6.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 1,
+            "price": 3.95
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 2,
+            "price": 5.92
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 3,
+            "price": 4.37
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 4,
+            "price": 7.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 5,
+            "price": 10.58
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 6,
+            "price": 2.71
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 7,
+            "price": 2.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 8,
+            "price": 3.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2001,
+            "energy": 9,
+            "price": 6.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 1,
+            "price": 3.67
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 2,
+            "price": 5.95
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 3,
+            "price": 4.39
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 4,
+            "price": 7.44
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 5,
+            "price": 10.69
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 6,
+            "price": 2.79
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 7,
+            "price": 2.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 8,
+            "price": 3.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2002,
+            "energy": 9,
+            "price": 6.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 1,
+            "price": 3.91
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 2,
+            "price": 6.09
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 3,
+            "price": 4.49
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 4,
+            "price": 8.21
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 5,
+            "price": 10.81
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 6,
+            "price": 2.88
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 7,
+            "price": 2.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 8,
+            "price": 3.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2003,
+            "energy": 9,
+            "price": 6.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 1,
+            "price": 4.51
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 2,
+            "price": 5.91
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 3,
+            "price": 4.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 4,
+            "price": 8.44
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 5,
+            "price": 10.95
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 6,
+            "price": 2.97
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 7,
+            "price": 2.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 8,
+            "price": 3.8
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2004,
+            "energy": 9,
+            "price": 6.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 1,
+            "price": 5.89
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 2,
+            "price": 6.32
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 3,
+            "price": 4.63
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 4,
+            "price": 9.64
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 5,
+            "price": 10.95
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 6,
+            "price": 3.24
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 7,
+            "price": 2.4
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 8,
+            "price": 4.04
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2005,
+            "energy": 9,
+            "price": 6.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 1,
+            "price": 6.51
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 2,
+            "price": 7.16
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 3,
+            "price": 5.47
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 4,
+            "price": 10.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 5,
+            "price": 11.01
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 6,
+            "price": 3.24
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 7,
+            "price": 2.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 8,
+            "price": 4.47
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2006,
+            "energy": 9,
+            "price": 6.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 1,
+            "price": 6.53
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 2,
+            "price": 7.26
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 3,
+            "price": 5.57
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 4,
+            "price": 10.87
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 5,
+            "price": 11.15
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 6,
+            "price": 3.59
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 7,
+            "price": 2.6
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 8,
+            "price": 5.0
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2007,
+            "energy": 9,
+            "price": 6.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 1,
+            "price": 8.36
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 2,
+            "price": 8.32
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 3,
+            "price": 6.29
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 4,
+            "price": 12.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 5,
+            "price": 11.30
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 6,
+            "price": 3.6
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 7,
+            "price": 2.6
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 8,
+            "price": 5.32
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2008,
+            "energy": 9,
+            "price": 5.4
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 1,
+            "price": 5.77
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 2,
+            "price": 8.37
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 3,
+            "price": 6.12
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 4,
+            "price": 10.68
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 5,
+            "price": 11.48
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 6,
+            "price": 3.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 7,
+            "price": 2.6
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 8,
+            "price": 4.57
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2009,
+            "energy": 9,
+            "price": 5.4
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 1,
+            "price": 7.18
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 2,
+            "price": 8.96
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 3,
+            "price": 6.54
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 4,
+            "price": 11.39
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 5,
+            "price": 11.73
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 6,
+            "price": 3.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 7,
+            "price": 2.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 8,
+            "price": 5.15
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2010,
+            "energy": 9,
+            "price": 6.0
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 1,
+            "price": 8.9
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 2,
+            "price": 9.94
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 3,
+            "price": 7.36
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 4,
+            "price": 13.07
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 5,
+            "price": 12.59
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 6,
+            "price": 3.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 7,
+            "price": 2.9
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 8,
+            "price": 5.32
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2011,
+            "energy": 9,
+            "price": 6.0
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 1,
+            "price": 9.72
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 2,
+            "price": 10.5
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 3,
+            "price": 7.73
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 4,
+            "price": 14.01
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 5,
+            "price": 13.21
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 6,
+            "price": 3.9
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 7,
+            "price": 2.9
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 8,
+            "price": 5.53
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2012,
+            "energy": 9,
+            "price": 6.2
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 1,
+            "price": 9.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 2,
+            "price": 10.87
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 3,
+            "price": 7.85
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 4,
+            "price": 13.27
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 5,
+            "price": 14.18
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 6,
+            "price": 4.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 7,
+            "price": 3.1
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 8,
+            "price": 5.83
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2013,
+            "energy": 9,
+            "price": 6.38
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 1,
+            "price": 8.62
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 2,
+            "price": 10.69
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 3,
+            "price": 7.65
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 4,
+            "price": 13.38
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 5,
+            "price": 15.09
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 6,
+            "price": 4.4
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 7,
+            "price": 3.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 8,
+            "price": 6.15
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2014,
+            "energy": 9,
+            "price": 6.81
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 1,
+            "price": 7.08
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 2,
+            "price": 10.24
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 3,
+            "price": 7.44
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 4,
+            "price": 12.56
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 5,
+            "price": 15.66
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 6,
+            "price": 4.0
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 7,
+            "price": 3.3
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 8,
+            "price": 6.06
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2015,
+            "energy": 9,
+            "price": 7.0
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 1,
+            "price": 6.39
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 2,
+            "price": 9.41
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 3,
+            "price": 6.76
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 4,
+            "price": 11.93
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 5,
+            "price": 15.82
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 6,
+            "price": 3.9
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 7,
+            "price": 3.4
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 8,
+            "price": 5.87
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2016,
+            "energy": 9,
+            "price": 7.2
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 1,
+            "price": 7.47
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 2,
+            "price": 9.7
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 3,
+            "price": 7.12
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 4,
+            "price": 12.99
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 5,
+            "price": 15.78
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 6,
+            "price": 4.02
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 7,
+            "price": 3.45
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 8,
+            "price": 6.05
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2017,
+            "energy": 9,
+            "price": 7.24
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 1,
+            "price": 6.98
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 2,
+            "price": 9.78
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 3,
+            "price": 7.11
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 4,
+            "price": 12.49
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 5,
+            "price": 15.75
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 6,
+            "price": 3.97
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 7,
+            "price": 3.36
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 8,
+            "price": 5.99
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2018,
+            "energy": 9,
+            "price": 7.15
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 1,
+            "price": 6.98
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 2,
+            "price": 9.78
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 3,
+            "price": 7.11
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 4,
+            "price": 12.49
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 5,
+            "price": 15.75
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 6,
+            "price": 3.97
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 7,
+            "price": 3.36
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 8,
+            "price": 5.99
+        }
+    },
+    {
+        "model": "energies.YearlyEnergyPrice",
+        "fields": {
+            "year": 2019,
+            "energy": 9,
+            "price": 7.15
+        }
+    }
+]

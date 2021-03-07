@@ -1,0 +1,26 @@
+[
+  {
+    "model": "autodiag_copro.AltitudeRatio",
+    "pk": 1,
+    "fields": {
+      "altitude": "0 à 400m",
+      "value": 0
+    }
+  },
+  {
+    "model": "autodiag_copro.AltitudeRatio",
+    "pk": 2,
+    "fields": {
+      "altitude": "400 à 800m",
+      "value": 0.1
+    }
+  },
+  {
+    "model": "autodiag_copro.AltitudeRatio",
+    "pk": 3,
+    "fields": {
+      "altitude": "800m et plus",
+      "value": 0.2
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "model": "autodiag_copro.DefaultParams",
+    "pk": 1,
+    "fields": {
+      "avg_living_area": 68,
+      "avg_hot_water_conso_ratio": 30,
+      "avg_water_conso_ratio": 90,
+      "eff_hot_water_conso_ratio": 25,
+      "eff_water_conso_ratio": 45
+    }
+  }
+]

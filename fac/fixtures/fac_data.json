@@ -1,0 +1,417 @@
+[
+{
+  "model": "fac.tag",
+  "pk": 1,
+  "fields": {
+    "created_at": "2019-12-03T16:19:32.138Z",
+    "updated_at": "2019-12-03T16:19:32.151Z",
+    "name": "Actimmo",
+    "description": null,
+    "owning_group": 1
+  }
+},
+{
+  "model": "fac.tag",
+  "pk": 2,
+  "fields": {
+    "created_at": "2019-12-03T16:19:43.851Z",
+    "updated_at": "2019-12-03T16:19:43.860Z",
+    "name": "informatique",
+    "description": null,
+    "owning_group": 1
+  }
+},
+{
+  "model": "fac.tag",
+  "pk": 3,
+  "fields": {
+    "created_at": "2019-12-03T16:19:52.854Z",
+    "updated_at": "2019-12-03T16:19:52.864Z",
+    "name": "energie",
+    "description": null,
+    "owning_group": 1
+  }
+},
+{
+  "model": "fac.tag",
+  "pk": 4,
+  "fields": {
+    "created_at": "2019-12-03T16:20:01.242Z",
+    "updated_at": "2019-12-03T16:20:01.257Z",
+    "name": "lyon",
+    "description": null,
+    "owning_group": 1
+  }
+},
+{
+  "model": "fac.contact",
+  "pk": 1,
+  "fields": {
+    "created_at": "2019-06-11T12:47:49.406Z",
+    "updated_at": "2019-12-03T16:45:06.507Z",
+    "owning_group": 1,
+    "client_account": null,
+    "civility": "-",
+    "first_name": "Marie",
+    "last_name": "Majax",
+    "email": "marie.majax@test.org",
+    "address": "14 Place Jules Ferry 69006 Lyon",
+    "town": "Lyon",
+    "zipcode": "69006",
+    "lat": "45.767958",
+    "lon": "4.859690",
+    "country": "France",
+    "phone": "+33437478090",
+    "mobile_phone": null,
+    "fax": null,
+    "phone_cache": "0437478090",
+    "mobile_phone_cache": null,
+    "fax_cache": null,
+    "confirmed": true,
+    "blacklisted": false,
+    "fileimport": null,
+    "tags": [
+      3,
+      2
+    ]
+  }
+},
+{
+  "model": "fac.contact",
+  "pk": 2,
+  "fields": {
+    "created_at": "2019-06-14T09:17:10.737Z",
+    "updated_at": "2019-06-14T09:17:10.758Z",
+    "owning_group": 5,
+    "client_account": null,
+    "civility": "-",
+    "first_name": "g",
+    "last_name": "gdf",
+    "email": "",
+    "address": "",
+    "town": "",
+    "zipcode": "",
+    "lat": "0.000000",
+    "lon": "0.000000",
+    "country": "",
+    "phone": null,
+    "mobile_phone": null,
+    "fax": null,
+    "phone_cache": null,
+    "mobile_phone_cache": null,
+    "fax_cache": null,
+    "confirmed": true,
+    "blacklisted": false,
+    "fileimport": null,
+    "tags": []
+  }
+},
+{
+  "model": "fac.contact",
+  "pk": 3,
+  "fields": {
+    "created_at": "2019-07-11T12:42:28.385Z",
+    "updated_at": "2019-07-11T12:42:28.414Z",
+    "owning_group": 5,
+    "client_account": null,
+    "civility": "-",
+    "first_name": "fghj",
+    "last_name": "hgvjh",
+    "email": "",
+    "address": "",
+    "town": "",
+    "zipcode": "",
+    "lat": "0.000000",
+    "lon": "0.000000",
+    "country": "",
+    "phone": null,
+    "mobile_phone": null,
+    "fax": null,
+    "phone_cache": null,
+    "mobile_phone_cache": null,
+    "fax_cache": null,
+    "confirmed": true,
+    "blacklisted": false,
+    "fileimport": null,
+    "tags": []
+  }
+},
+{
+  "model": "fac.organization",
+  "pk": 1,
+  "fields": {
+    "created_at": "2019-09-18T13:11:38.337Z",
+    "updated_at": "2019-12-03T16:28:44.046Z",
+    "owning_group": 1,
+    "type_of_organization": "Association",
+    "name": "Association ALISEE",
+    "description": "<p>C'est une super association !</p>",
+    "reference": "Association ALISEE",
+    "address": "10 Rue Pr\u00e9sident Edouard Herriot 44000 Nantes",
+    "town": "Nantes",
+    "zipcode": "44000",
+    "lat": "47.218757",
+    "lon": "-1.560321",
+    "country": "France",
+    "email": "contact@alisee.org",
+    "website": "https://alisee.org",
+    "phone": null,
+    "fax": null,
+    "phone_cache": null,
+    "fax_cache": null,
+    "fileimport": null,
+    "tags": [
+      1,
+      3
+    ],
+    "referents": [
+      [
+        "conseiller@test.org"
+      ]
+    ]
+  }
+},
+{
+  "model": "fac.organization",
+  "pk": 2,
+  "fields": {
+    "created_at": "2019-12-03T16:32:20.244Z",
+    "updated_at": "2019-12-03T16:33:00.535Z",
+    "owning_group": 1,
+    "type_of_organization": "Bailleur",
+    "name": "Deuxieme Structure",
+    "description": "<p>Cette structure existe pour avoir une relation avec la premi\u00e8re structure</p>",
+    "reference": "",
+    "address": "2, rue République",
+    "town": null,
+    "zipcode": null,
+    "lat": "0.000000",
+    "lon": "0.000000",
+    "country": null,
+    "email": "",
+    "website": "",
+    "phone": null,
+    "fax": null,
+    "phone_cache": null,
+    "fax_cache": null,
+    "fileimport": null,
+    "tags": [],
+    "referents": []
+  }
+},
+{
+  "model": "fac.memberoforganization",
+  "pk": 1,
+  "fields": {
+    "created_at": "2019-12-03T16:21:18.754Z",
+    "updated_at": "2019-12-03T16:21:18.767Z",
+    "owning_group": 1,
+    "contact": 1,
+    "organization": 1,
+    "use_address_from_organization": true,
+    "title_in_organization": "CHEFFE",
+    "destruction_date": null,
+    "tags": [
+      1
+    ],
+    "competencies_tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "fac.file",
+  "pk": 2,
+  "fields": {
+    "created_at": "2019-12-03T16:23:52.047Z",
+    "updated_at": "2019-12-03T16:23:52.061Z",
+    "owning_group": 1,
+    "content_type": [
+      "fac",
+      "contact"
+    ],
+    "object_id": 1,
+    "document": "",
+    "url": "http://www.hespul.org/wp-content/themes/good-minimal-Hespul/css/light-images/logo-hespul.png",
+    "pinned": false,
+    "note": "<p>C'est le logo d'Hespul</p>",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "fac.file",
+  "pk": 3,
+  "fields": {
+    "created_at": "2019-12-03T16:25:53.153Z",
+    "updated_at": "2019-12-03T16:25:53.165Z",
+    "owning_group": 1,
+    "content_type": [
+      "fac",
+      "contact"
+    ],
+    "object_id": 1,
+    "document": "",
+    "url": "http://www.hespul.org/wp-content/themes/good-minimal-Hespul/css/light-images/logo-hespul.png",
+    "pinned": true,
+    "note": "<p>\u00c0 nouveau le logo d'Hespul</p>",
+    "tags": []
+  }
+},
+{
+  "model": "fac.note",
+  "pk": 2,
+  "fields": {
+    "created_at": "2019-12-03T16:21:53.928Z",
+    "updated_at": "2019-12-03T16:22:01.700Z",
+    "owning_group": 1,
+    "creator": [
+      "conseiller@test.org"
+    ],
+    "content_type": [
+      "fac",
+      "contact"
+    ],
+    "object_id": 1,
+    "note": "<p>\u00c0 faire plus tard</p>",
+    "done": true,
+    "done_by": [
+      "conseiller@test.org"
+    ],
+    "pinned": false,
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "fac.note",
+  "pk": 3,
+  "fields": {
+    "created_at": "2019-12-03T16:22:27.033Z",
+    "updated_at": "2019-12-03T16:22:27.051Z",
+    "owning_group": 1,
+    "creator": [
+      "conseiller@test.org"
+    ],
+    "content_type": [
+      "fac",
+      "contact"
+    ],
+    "object_id": 1,
+    "note": "<p>Ne pas oublier de faire \u00e7a</p>",
+    "done": false,
+    "done_by": [
+      "conseiller@test.org"
+    ],
+    "pinned": true,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "fac.note",
+  "pk": 4,
+  "fields": {
+    "created_at": "2019-12-03T16:30:59.176Z",
+    "updated_at": "2019-12-03T16:30:59.290Z",
+    "owning_group": 1,
+    "creator": [
+      "conseiller@test.org"
+    ],
+    "content_type": [
+      "fac",
+      "organization"
+    ],
+    "object_id": 1,
+    "note": "<p>\u00c0 faire dans longtemps !</p>",
+    "done": false,
+    "done_by": [
+      "conseiller@test.org"
+    ],
+    "pinned": false,
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "fac.note",
+  "pk": 5,
+  "fields": {
+    "created_at": "2019-12-03T16:31:22.087Z",
+    "updated_at": "2019-12-03T16:31:22.116Z",
+    "owning_group": 1,
+    "creator": [
+      "conseiller@test.org"
+    ],
+    "content_type": [
+      "fac",
+      "organization"
+    ],
+    "object_id": 1,
+    "note": "<p>En retard !!!</p>",
+    "done": false,
+    "done_by": [
+      "conseiller@test.org"
+    ],
+    "pinned": false,
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "fac.relationbetweenorganization",
+  "pk": 1,
+  "fields": {
+    "created_at": "2019-12-03T16:32:43.381Z",
+    "updated_at": "2019-12-03T16:32:43.395Z",
+    "owning_group": 1,
+    "first_organization": 1,
+    "relation_name": "la maison m\u00e8re",
+    "second_organization": 2
+  }
+},
+{
+  "model": "fac.rgpdconsentforcontacts",
+  "pk": 1,
+  "fields": {
+    "contact": 1,
+    "creation_date": "2019-06-11T12:47:49.423Z",
+    "allow_to_keep_data": true,
+    "allow_to_use_email_to_send_reminder": false,
+    "allow_to_use_phone_number_to_send_reminder": false,
+    "allow_to_share_my_information_with_my_advisor": false,
+    "allow_to_share_my_information_with_partners": false
+  }
+},
+{
+  "model": "fac.rgpdconsentforcontacts",
+  "pk": 2,
+  "fields": {
+    "contact": 2,
+    "creation_date": "2019-06-14T09:17:10.756Z",
+    "allow_to_keep_data": true,
+    "allow_to_use_email_to_send_reminder": false,
+    "allow_to_use_phone_number_to_send_reminder": false,
+    "allow_to_share_my_information_with_my_advisor": false,
+    "allow_to_share_my_information_with_partners": false
+  }
+},
+{
+  "model": "fac.rgpdconsentforcontacts",
+  "pk": 3,
+  "fields": {
+    "contact": 3,
+    "creation_date": "2019-07-11T12:42:28.411Z",
+    "allow_to_keep_data": true,
+    "allow_to_use_email_to_send_reminder": false,
+    "allow_to_use_phone_number_to_send_reminder": false,
+    "allow_to_share_my_information_with_my_advisor": false,
+    "allow_to_share_my_information_with_partners": false
+  }
+}
+]

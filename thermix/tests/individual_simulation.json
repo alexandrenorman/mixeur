@@ -1,0 +1,237 @@
+{
+    "user": {},
+    "advisor": {},
+    "year": 2019,
+    "thermal_solar_prod_by_m2": 450,
+    "needs": {
+        "heating": 50000,
+        "hot_water": 20000,
+        "housing_category": "individual"
+    },
+    "custom_carbon_tax": {
+        "year": 2030,
+        "amount": 100
+    },
+    "solutions": [
+        {
+            "index": 1,
+            "renewable_electricity": true,
+            "renewable_electricity_production": 9000,
+            "financial_support": false,
+            "financial_support_amount": 0,
+            "heating_systems": [
+                {
+                    "index": 1,
+                    "production_system": 4,
+                    "production_share": 0.8,
+                    "estimated_investment": 0,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 7.11,
+                    "energy_price_variation": 0.0373
+                },
+                {
+                    "index": 2,
+                    "production_system": 13,
+                    "production_share": 0.2,
+                    "estimated_investment": 15000,
+                    "efficiency": 5.2,
+                    "maintenance_cost": 200,
+                    "provisions_cost": 0,
+                    "energy_price": 15.75,
+                    "energy_price_variation": 0.0302
+                }
+            ],
+            "hot_water_systems": [
+                {
+                    "index": 1,
+                    "production_system": 16,
+                    "production_share": 1.0,
+                    "estimated_investment": 0,
+                    "efficiency": 0.72,
+                    "maintenance_cost": 250,
+                    "provisions_cost": 0,
+                    "energy_price": 5.99,
+                    "energy_price_variation": 0.0378
+                },
+                {
+                    "index": 2,
+                    "production_system": 0,
+                    "production_share": null,
+                    "estimated_investment": null,
+                    "efficiency": null,
+                    "maintenance_cost": null,
+                    "provisions_cost": null,
+                    "energy_price": null,
+                    "energy_price_variation": null
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "renewable_electricity": true,
+            "renewable_electricity_production": 9000,
+            "financial_support": false,
+            "financial_support_amount": 0,
+            "heating_systems": [
+                {
+                    "index": 1,
+                    "production_system": 4,
+                    "production_share": 0.8,
+                    "estimated_investment": 5000,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 7.11,
+                    "energy_price_variation": 0.0373
+                },
+                {
+                    "index": 2,
+                    "production_system": 8,
+                    "production_share": 0.2,
+                    "estimated_investment": 3000,
+                    "efficiency": 1.0,
+                    "maintenance_cost": 0,
+                    "provisions_cost": 0,
+                    "energy_price": 13.39,
+                    "energy_price_variation": 0.0302
+                }
+            ],
+            "hot_water_systems": [
+                {
+                    "index": 1,
+                    "production_system": 7,
+                    "production_share": 1.0,
+                    "estimated_investment": 0,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 13.39,
+                    "energy_price_variation": 0.0302
+                },
+                {
+                    "index": 2,
+                    "production_system": 0,
+                    "production_share": null,
+                    "estimated_investment": null,
+                    "efficiency": null,
+                    "maintenance_cost": null,
+                    "provisions_cost": null,
+                    "energy_price": null,
+                    "energy_price_variation": null
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "renewable_electricity": true,
+            "renewable_electricity_production": 9000,
+            "financial_support": false,
+            "financial_support_amount": 0,
+            "heating_systems": [
+                {
+                    "index": 1,
+                    "production_system": 4,
+                    "production_share": 0.8,
+                    "estimated_investment": 5000,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 7.11,
+                    "energy_price_variation": 0.0373
+                },
+                {
+                    "index": 2,
+                    "production_system": 8,
+                    "production_share": 0.2,
+                    "estimated_investment": 3000,
+                    "efficiency": 1.0,
+                    "maintenance_cost": 0,
+                    "provisions_cost": 0,
+                    "energy_price": 13.39,
+                    "energy_price_variation": 0.0302
+                }
+            ],
+            "hot_water_systems": [
+                {
+                    "index": 1,
+                    "production_system": 7,
+                    "production_share": 1.0,
+                    "estimated_investment": 0,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 13.39,
+                    "energy_price_variation": 0.0302
+                },
+                {
+                    "index": 2,
+                    "production_system": 0,
+                    "production_share": null,
+                    "estimated_investment": null,
+                    "efficiency": null,
+                    "maintenance_cost": null,
+                    "provisions_cost": null,
+                    "energy_price": null,
+                    "energy_price_variation": null
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "renewable_electricity": true,
+            "renewable_electricity_production": 9000,
+            "financial_support": true,
+            "financial_support_amount": 3000,
+            "heating_systems": [
+                {
+                    "index": 1,
+                    "production_system": 4,
+                    "production_share": 0.8,
+                    "estimated_investment": 5000,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 7.11,
+                    "energy_price_variation": 0.0373
+                },
+                {
+                    "index": 2,
+                    "production_system": 8,
+                    "production_share": 0.2,
+                    "estimated_investment": 3000,
+                    "efficiency": 1.0,
+                    "maintenance_cost": 0,
+                    "provisions_cost": 0,
+                    "energy_price": 13.39,
+                    "energy_price_variation": 0.0302
+                }
+            ],
+            "hot_water_systems": [
+                {
+                    "index": 1,
+                    "production_system": 7,
+                    "production_share": 1.0,
+                    "estimated_investment": 0,
+                    "efficiency": 0.95,
+                    "maintenance_cost": 150,
+                    "provisions_cost": 0,
+                    "energy_price": 13.39,
+                    "energy_price_variation": 0.0302
+                },
+                {
+                    "index": 2,
+                    "production_system": 0,
+                    "production_share": null,
+                    "estimated_investment": null,
+                    "efficiency": null,
+                    "maintenance_cost": null,
+                    "provisions_cost": null,
+                    "energy_price": null,
+                    "energy_price_variation": null
+                }
+            ]
+        }
+    ]
+}
